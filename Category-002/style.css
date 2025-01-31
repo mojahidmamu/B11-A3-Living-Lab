@@ -1,0 +1,104 @@
+body {
+    margin: 10px;
+    padding: 10px;
+}
+
+header{
+    background-color: hwb(0 69% 25%);
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #ffffff;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo-icon{
+    height: 30px;
+    margin-right: 10px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li{
+    margin: 0 10px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    color: #a97f50;
+}
+
+.Login{
+    background-color: white;
+    color: black;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.Register{
+    background-color: green;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.span{
+    color: green;
+}
+
+.heading-title{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.heading-title img{
+    height: 400px;
+    margin-bottom: 30px;
+ }
+
+.description{
+    color: gray;
+}
+
+.service{ 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.title{
+    color: green;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+.Child-div{
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    text-align: center;
+    width: 50vh;
+    background-color: #EFEBE3;
+}

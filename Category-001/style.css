@@ -1,28 +1,26 @@
-  /* Navbar Styles */
-  .navbar {
+.navbar {
     background-color: #FFF9F4;
     padding: 1rem 2rem;
     display: flex;
     justify-content: center;
     border-bottom: 2px solid #ffe600;
-  }
+}
 
-  .navbar-container {
+.navbar-container {
     max-width: 1200px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
+}
 
-  /* Logo Styles */
-  .logo {
+.logo {
     display: flex;
     align-items: center;
     color: #ffe600;
     font-weight: bold;
     font-size: 1.2rem;
-  }
+}
 
   .logo-img {
     width: 40px;
@@ -39,7 +37,6 @@
     color: #ffe600;
   }
 
-  /* Navigation Links */
   .nav-links {
     display: flex;
     gap: 2rem;
@@ -56,7 +53,6 @@
     color: #ffe600;
   }
 
-  /* Action Buttons */
   .actions {
     display: flex;
     align-items: center;

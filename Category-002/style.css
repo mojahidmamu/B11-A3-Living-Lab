@@ -113,7 +113,19 @@ header{
     background-color: green;
     border-radius: 10px;
     width: 90vh;
-    margin-left: 60px;
+    /* margin-left: 60px; */
+}
+
+.Arrival-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    width: 70vh;
+    border-radius: 10px;
+    background-color: #102861;
+    margin-left: 20px;
 }
 
 .Register-1{
@@ -127,4 +139,48 @@ header{
 
 .title-2{
     color: white;
+}
+
+.Arrival-DIV{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.extra-section{
+    background-color: #EFEBE3;
+    border: 1px solid grey;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    padding: 25px 5px;
+    margin-left: 140px;
+    margin-bottom: 20px;
+    /* margin-bottom: -70px; */
+}
+
+.extra-section img{
+    height: 300px;
+}
+
+.extra-section-1 button{
+    /* gap: 10px;  */
+    margin-top: 10px;
+}
+
+footer{
+    background-color: rgb(24, 170, 24);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 20px;
+    height: 50vh;
+}
+
+footer li{
+    list-style: none;
+    padding: 10px;
 }
